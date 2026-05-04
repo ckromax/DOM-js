@@ -103,3 +103,15 @@ btn.addEventListener('click', function() {
 });
 
 
+//10 - удаление тегов
+// живая коллекция
+
+const texts = document.querySelector('.content').childNodes;
+console.log(texts);
+
+const p1 = document.querySelector('p'); //выбираю первый праграф
+p1.outerHTML = ""; //удаление тега параграфа
+console.log(paragraphs);
+ 
+
+
